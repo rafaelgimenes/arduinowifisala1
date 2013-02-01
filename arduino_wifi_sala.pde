@@ -1,5 +1,8 @@
 /*
 * Codigo de exemplo by falecom@rafaelgimenes.net
+*Projeto que controla 2 lampadas usando arduino wifi, 
+*usa RTC1302 pra verificar a hora e em determinado periodo programado ele alterna o ativamento das lampadas, 
+*para simular que tem gente na casa"
 */
 #include <WiServer.h>
 #include <stdio.h>   //DS1302
